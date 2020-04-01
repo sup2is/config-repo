@@ -1,1 +1,5 @@
-example.property: "foo service dev profile"
+example.property: "this is dev profile"
+spring.database.driverClassName: "org.h2.Driver"
+spring.datasource.url: "jdbc:h2:mem:"
+spring.datasource.username: "dev_name"
+spring.datasource.password: "password"
